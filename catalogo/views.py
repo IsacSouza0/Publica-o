@@ -11,4 +11,4 @@ def catalogo_view(request):
     contexto = {
         'filmes': filmes
     }
-    return render(requets,'catalogo.html', contexto)
+    return render(request,'catalogo.html', contexto)
